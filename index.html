@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -21,11 +24,34 @@
 
     <div class="menu">
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Tours</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Pages</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Blog <i class="fas fa-chevron-down"></i> </a>
+          <div class="blog">
+            <ul>
+              <li><a href="#">Blog with right sidebar</a></li>
+              <li><a href="#">Blog with left sidebar</a></li>
+              <li><a href="#">Blog without sidebar</a></li>
+              <li><a href="#">Blog Single with sidebar</a></li>
+              <li><a href="#">Blog Single with right sidebar</a></li>
+              <li><a href="#">Blog Single with left sidebar</a></li>
+              <li><a href="#">Blog Single without sidebar</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="">Pages <i class="fas fa-chevron-down"></i> </a>
+          <div class="pages">
+            <ul>
+              <li><a href="#">404 Page</a></li>
+              <li><a href="#">Email Template</a></li>
+              <li><a href="#">Shortcodes</a></li>
+              <li><a href="#">Landing Page</a></li>
+            </ul>
+          </div>
+        </li>
+
         <li><a href="">Contact</a></li>
       </ul>
 
@@ -52,8 +78,33 @@
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Tours</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Pages</a></li>
+        <li><a href="">Blog<i class="fas fa-chevron-down" style="font-size:20px;"></i></a>
+
+          <div class="blog">
+            <ul>
+              <li><a href="#">Blog with right sidebar</a></li>
+              <li><a href="#">Blog with left sidebar</a></li>
+              <li><a href="#">Blog without sidebar</a></li>
+              <li><a href="#">Blog Single with sidebar</a></li>
+              <li><a href="#">Blog Single with right sidebar</a></li>
+              <li><a href="#">Blog Single with left sidebar</a></li>
+              <li><a href="#">Blog Single without sidebar</a></li>
+            </ul>
+          </div>
+
+        </li>
+        <li><a href="">Pages<i class="fas fa-chevron-down" style="font-size:20px;"></i> </a>
+
+          <div class="pages">
+            <ul>
+              <li><a href="#">404 Page</a></li>
+              <li><a href="#">Email Template</a></li>
+              <li><a href="#">Shortcodes</a></li>
+              <li><a href="#">Landing Page</a></li>
+            </ul>
+          </div>
+
+        </li>
         <li><a href="">Contact</a></li>
       </ul>
 
@@ -65,6 +116,76 @@
     </div>
 
   </nav>
+
+  <section class="background">
+    <img
+      src="https://images.unsplash.com/photo-1576566982688-c88e03b99a0d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="mountain1">
+    <div class="paragraph">
+      <pre><em>Love and Travel</em></pre>
+      <p>Discover amzaing places at exclusive deals.</p>
+    </div>
+    <button class="explore">Explore More</button>
+    <i class="fas fa-arrow-left"></i>
+    <i class="fas fa-arrow-right"></i>
+  </section>
+
+  <section class="detail">
+
+    <div class="detail-div">
+
+      <div class="date">
+        <label for="date" class="dat">Date From:</label>
+        <br>
+        <input type="datetime-local" id="date" name="date" placeholder="mm/dd/yyyy">
+      </div>
+
+      <div class="destinations">
+        <label for="destinations" class="desti">Destinations:</label>
+        <br>
+        <input type="text" id="destinations" name="destinations" placeholder="Select Location">
+      </div>
+
+      <div class="activity">
+        <label for="activity" class="acti">Activity:</label>
+        <br>
+        <input type="text" id="activity" name="activity" placeholder="Select Any">
+      </div>
+
+      <div class="guests">
+        <label for="guests" class="guest">Guests:</label>
+        <br>
+        <input type="number" id="guests" name="date" placeholder="0">
+      </div>
+
+    </div>
+
+    <button class="tour">Explore Tour</button>
+
+  </section>
+
+  <section class="about">
+    <div class="about-img">
+      <img src="tour_images/Lukla.jpg" alt="img">
+    </div>
+    <div class="about-paragraph">
+      <p class="about-us">about us</p>
+      <h2>Plan Your Trip with Tours</h2>
+      <p class="about-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui maiores ipsum
+        repellendus, sequi beatae
+        pariatur velit commodi exercitationem ullam porro perferendis quaerat at officia labore! Suscipit architecto
+        ipsam illo?</p>
+      <ul>
+        <li><i class="fas fa-check-circle"></i> 2000+ Our Worldwide Guide</li>
+        <li> <i class="fas fa-check-circle"></i> 100% Trusted Tour Agency</li>
+        <li><i class="fas fa-check-circle"></i> 24+ Years of Experience</li>
+        <li><i class="fas fa-check-circle"></i> 100% Travelers are Happy</li>
+      </ul>
+
+      <button class="booking">Booking now</button>
+    </div>
+  </section>
+
 
 </body>
 
