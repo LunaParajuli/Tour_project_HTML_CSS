@@ -563,13 +563,13 @@
     top: 70px;
     left: 35px;
     box-shadow: 2px 1px 15px rgb(0, 0, 0);
-    display: none;
+    display: block;
     z-index: 90000;
   }
 
   /* .barr:hover .menus {
     display: block !important;
-  }   */
+  } */
 
   .menus ul {
     list-style-type: none;
