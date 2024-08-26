@@ -501,13 +501,16 @@
   border-top-right-radius: 15px;
 }
 
-/* section experience */
 
+
+/* section experience */
 .experience {
-  height: 500;
-  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2xvYmUlMjBuZXR3b3JrfGVufDB8fDB8fHww');
+  height: 600px;
+  background-image: url('https://plus.unsplash.com/premium_photo-1712225701850-d34b3141b1a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   margin-bottom: 100px;
+  background-repeat: no-repeat;
 }
+
 
 
 
