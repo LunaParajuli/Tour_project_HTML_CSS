@@ -374,6 +374,7 @@
 
 .feature {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .feature p {
@@ -392,11 +393,15 @@
   height: 500px;
   margin-top: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 
 }
 
-.pop1 {
+.pop1,
+.pop2,
+.pop3,
+.pop4 {
   height: 100%;
   width: 24%;
   box-shadow: 1px 2px 15px black;
@@ -482,29 +487,6 @@
   font-weight: 900;
 }
 
-.pop2 {
-  height: 100%;
-  width: 24%;
-  box-shadow: 1px 2px 15px black;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.pop3 {
-  height: 100%;
-  width: 24%;
-  box-shadow: 1px 2px 15px black;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.pop4 {
-  height: 100%;
-  width: 24%;
-  box-shadow: 1px 2px 15px black;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
 
 
 
@@ -688,6 +670,7 @@
   height: 600px;
   width: 85%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 80px 0 100px 150px;
 }
@@ -715,12 +698,12 @@
   font-family: 'Dancing Script', cursive;
   font-weight: 600;
   color: rgb(69, 80, 203);
-  margin: 20px;
 }
 
 .features-paragraph h2 {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-weight: 200;
 }
 
 .features-paragraph .features-lorem {
@@ -1408,6 +1391,304 @@ footer {
 }
 
 
+/* TOUR PAGE */
+
+.experience-tour {
+  height: 600px;
+  background-image: url('https://plus.unsplash.com/premium_photo-1712225701850-d34b3141b1a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  margin: 0 0 100px 0;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.experience-tour pre {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: rgb(85, 99, 249);
+  margin-bottom: 5px;
+}
+
+.experience-tour h1 {
+  font-size: 45px;
+}
+
+
+/* Destination Section */
+.destination {
+  height: 900px;
+  background-color: rgba(219, 218, 220, 0.5);
+  margin-bottom: 100px;
+}
+
+.des-place {
+  height: 20%;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.des-place pre {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(69, 80, 203);
+  font-weight: 400;
+}
+
+.des-place h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.des-tour {
+  height: 70%;
+  width: 90%;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.desti-tour {
+  height: 46%;
+  width: 31%;
+  background-color: aqua;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+}
+
+.desti-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+}
+
+.desti-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+.tours-para {
+  position: relative;
+  height: 45px;
+  width: 90px;
+  background-color: rgb(69, 80, 203);
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-size: 17px;
+  font-weight: 200;
+  border-bottom-left-radius: 10px;
+  border: none;
+  bottom: 45px;
+  display: block;
+}
+
+.desti-tour:hover .tours-para {
+  display: none;
+}
+
+.desti-country {
+  height: 100%;
+  width: 100%;
+  text-align: start;
+  align-content: center;
+  background-color: rgba(169, 50, 38, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  padding-left: 30px;
+  display: none;
+}
+
+.desti-country h2 {
+  font-size: 35px;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.desti-country p {
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+}
+
+.desti-tour:hover .desti-country {
+  display: block;
+}
+
+
+/* Contact Page */
+.contacts {
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.contact-para {
+  text-align: center;
+  align-content: center;
+}
+
+.contact-para pre {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(69, 80, 203);
+  font-size: 40px;
+  font-weight: 100;
+
+}
+
+.contact-para h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.contact-lcd {
+  height: 70%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.lcd {
+  height: 50%;
+  width: 27%;
+  margin: auto 0;
+  background-color: rgb(251, 249, 249);
+  display: flex;
+  padding: 35px 0 0 25px;
+}
+
+.lcd-icon i {
+  font-size: 45px;
+  color: rgb(69, 80, 203);
+}
+
+.lcd-para {
+  margin-left: 20px;
+
+}
+
+.lcd-para h3 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.lcd-para p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(100, 99, 99, 0.9);
+  padding-bottom: 7px;
+}
+
+/* map section */
+.map {
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.map-location {
+  height: 95%;
+  width: 80%;
+  box-shadow: 1px 1px 10px black;
+  margin: 0 auto;
+}
+
+.map-location iframe {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* Query section */
+.query {
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.query-para {
+  text-align: center;
+}
+
+.query-para p {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(69, 80, 203);
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.query-para h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.query-detail {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+#fname,
+#phone,
+#email,
+#subject {
+  height: 60px;
+  width: 585px;
+  font-size: 20px;
+  padding-left: 10px;
+  align-items: center;
+  margin: 20px 20px 30px 0;
+  background-color: rgb(233, 231, 231);
+  border: none;
+  border-radius: 10px;
+
+}
+
+#msg {
+  height: 120px;
+  width: 1195px;
+  font-size: 20px;
+  padding-left: 10px;
+  align-items: center;
+  margin: 20px 20px 30px 0;
+  background-color: rgb(233, 231, 231);
+  border: none;
+  border-radius: 10px;
+}
+
+.submit {
+  height: 60px;
+  width: 180px;
+  color: white;
+  background-color: rgb(69, 80, 203);
+  position: absolute;
+  right: 145px;
+  bottom: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+}
+
+
 
 
 /* medium-screen */
@@ -1601,6 +1882,25 @@ footer {
   }
 
 
+  /* popular-tour section */
+  .tour-para {
+    height: 900;
+  }
+
+  .popular-tour {
+    height: 800px;
+  }
+
+  .pop1,
+  .pop2,
+  .pop3,
+  .pop4 {
+    height: 48%;
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+
   /* experience section */
   .dhas1 {
     font-size: 30px;
@@ -1755,6 +2055,57 @@ footer {
 
   .testi-lorem p {
     font-size: 15px;
+  }
+
+
+  /* TOUR PAGE */
+  .destination {
+    height: 1000px;
+  }
+
+  .des-place {
+    margin-bottom: 150px;
+  }
+
+  .des-tour {
+    height: 60%;
+  }
+
+
+  /* contact section */
+  .contacts {
+    height: 200px;
+  }
+
+  .contact-lcd {
+    height: 70%;
+  }
+
+  .lcd {
+    height: 80%;
+  }
+
+  .lcd-icon i {
+    font-size: 35px;
+  }
+
+  .lcd-para h3 {
+    font-size: 20px;
+  }
+
+  .lcd-para p {
+    font-size: 15px;
+  }
+
+
+  /* Query Section */
+  .query {
+    height: 850px;
+    margin-bottom: 100px;
+  }
+
+  #msg {
+    width: 585px;
   }
 
 
