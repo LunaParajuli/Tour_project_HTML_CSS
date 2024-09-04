@@ -7,6 +7,8 @@
   /* background-color: rgb(69, 80, 203); */
 }
 
+
+
 .medium_screen {
   display: none;
 }
@@ -1755,13 +1757,15 @@ footer {
     top: 70px;
     left: 30px;
     box-shadow: 2px 1px 15px rgb(0, 0, 0);
-    display: none;
     z-index: 90000;
+    display:none; 
   }
 
-  .barr:hover .menn {
-    display: block;
-  }
+.barr:hover .menus{
+  display:block;
+}
+
+ 
 
   .menus ul {
     list-style-type: none;
@@ -1782,23 +1786,23 @@ footer {
     color: blue;
   }
 
-  .blog {
+  .blogs {
     position: absolute;
     height: 300px;
-    width: 270px;
+    width: 400px;
     background-color: rgb(252, 247, 240, 0.5);
     box-shadow: 0 1px 10px black;
     top: 60px;
     left: -60px;
-    display: none !important;
+    display: none;
   }
 
 
-  .menu ul li:hover .blog {
+  .menus ul li:hover .blogs {
     display: block ;
   }
 
-  .page {
+  .pages {
     position: absolute;
     height: 200px;
     width: 200px;
@@ -1806,10 +1810,10 @@ footer {
     box-shadow: 0 1px 10px black;
     top: 60px;
     left: -60px;
-    display: none !important;
+    display: none;
   }
 
-  .menus ul li :hover .page {
+  .menus ul li:hover .pages {
     display: block;
   }
 
@@ -1839,7 +1843,7 @@ footer {
   .detail {
     height: 270px;
     width: 800px;
-    margin: 80px 0 0 50px;
+    margin: 80px 0 0 10px;
     display: block;
 
   }
@@ -2676,7 +2680,7 @@ footer {
   /* features section */
   .features {
     height: 900px;
-    width: 98%;
+    width: 95%;
     margin: 0 0 50px 2px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -2947,14 +2951,14 @@ footer {
   .sticky-zone {
     height: 300px;
     width: 80px;
-    position: fixed;
+    position:fixed;
     background-color: rgb(0, 0, 0);
-    top: 80px;
-    right: 5px;
+    top: 90px;
+    right: 275px;
     border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    z-index: 50000;
+   
   }
 
   .sticky-zone .arrow {
