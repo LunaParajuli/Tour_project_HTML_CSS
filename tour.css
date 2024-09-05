@@ -6,7 +6,9 @@
   /* font-family: 'Dancing Script', cursive; */
   /* background-color: rgb(69, 80, 203); */
 }
-
+body{
+  overflow-x:hidden;
+}
 
 
 .medium_screen {
@@ -214,7 +216,7 @@
   width: 1130px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 1px 10px rgb(113, 113, 113);
-  margin: 60px 0 0 300px;
+  margin:50px auto;
   display: flex;
   align-items: center;
 }
@@ -1758,7 +1760,7 @@ footer {
     left: 30px;
     box-shadow: 2px 1px 15px rgb(0, 0, 0);
     z-index: 90000;
-    display:none; 
+    display:block; 
   }
 
 .barr:hover .menus{
@@ -2251,6 +2253,9 @@ footer {
 
 
 @media screen and (max-width:562px) {
+  body{
+    overflow-x:hidden;
+  }
   .menus {
     height: 250px;
   }
@@ -2415,7 +2420,7 @@ footer {
   .tour-para {
     height: 1230;
     width: 100%;
-    margin: 70px 10px 70px 10px;
+    margin: 70px 10px 70px 2px;
   }
 
   .feature {
@@ -2437,7 +2442,7 @@ footer {
 
   .popular-tour {
     height: 1150px;
-    width: 100%;
+    width: 98%;
     margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
